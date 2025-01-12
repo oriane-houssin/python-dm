@@ -41,7 +41,8 @@ best_bar = plt.bar(df_10_best['commune'], df_10_best['entrées moyennes/fauteuil
 plt.title('Top 10 des communes ayant le meilleur résultat entrées moyennes/fauteuil 2022')
 plt.xlabel('Communes')
 plt.ylabel('Moyenne entrées/fauteuil 2022')
-print(best_bar)
+plt.savefig('exercice_2_bar.png')
+plt.close()
 
 
 
